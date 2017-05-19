@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThirdViewController">
+            <connections>
+                <outlet property="imageView1" destination="hg2-x9-hdr" id="Os5-GK-8e8"/>
+                <outlet property="imageView2" destination="Np3-Gf-CVf" id="91n-fF-FdX"/>
+                <outlet property="label1" destination="4zu-dc-HuC" id="wRm-wk-ABy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Image Move Transaction" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zu-dc-HuC">
+                    <rect key="frame" x="189" y="500" width="159" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="en3-Qs-7Ys"/>
+                        <constraint firstAttribute="width" constant="159" id="hpN-3i-aM2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="hg2-x9-hdr">
+                    <rect key="frame" x="59.5" y="504.5" width="76" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="76" id="3ye-RD-N5A"/>
+                        <constraint firstAttribute="height" constant="76" id="ixY-BN-1lD"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Np3-Gf-CVf">
+                    <rect key="frame" x="55.5" y="115.5" width="264" height="264"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="264" id="3Bh-aa-nlx"/>
+                        <constraint firstAttribute="width" constant="264" id="VT4-DL-YAk"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Np3-Gf-CVf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Cnn-Um-VEA"/>
+                <constraint firstItem="hg2-x9-hdr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="209" id="MCJ-dT-hl7"/>
+                <constraint firstItem="hg2-x9-hdr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-90" id="Os2-Zd-G5S"/>
+                <constraint firstItem="4zu-dc-HuC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="81" id="VqJ-4J-YnA"/>
+                <constraint firstItem="Np3-Gf-CVf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-86" id="ihv-ei-FIT"/>
+                <constraint firstItem="4zu-dc-HuC" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="195" id="mjc-i7-yOr"/>
+            </constraints>
+            <point key="canvasLocation" x="334.5" y="120.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="2480" height="1754"/>
+        <image name="2" width="2480" height="1754"/>
+    </resources>
+</document>
