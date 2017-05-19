@@ -1,10 +1,5 @@
-![BCMagicTransition](https://github.com/boycechang/BCMagicTransition/blob/master/icon.png)
-
-BCMagicTransition  [![Build Status](https://travis-ci.org/boycechang/BCMagicTransition.svg?branch=master)](https://travis-ci.org/boycechang/BCMagicTransition) ![Verison]() ![Lisence]() ![platform]()
+![APImageTransactionEffect]
 =====================
-
-![BCMagicTransition](https://github.com/boycechang/BCMagicTransition/blob/master/MagicTransition.gif)
-
 
 **A MagicMove Style Custom UIViewController Transiton**
 
@@ -12,7 +7,7 @@ BCMagicTransition  [![Build Status](https://travis-ci.org/boycechang/BCMagicTran
 
 
 
-##Adding BCMagicTransition to your project
+##Adding APImageTransactionEffect to your project
 
 #### Requirements
 
@@ -21,12 +16,12 @@ BCMagicTransition  [![Build Status](https://travis-ci.org/boycechang/BCMagicTran
 #### Get it as: 
 ##### 1) source files
 
-1. Download the BCMagicTransition repository as a zip file or clone it
-2. Copy the BCMagicTransition files into your Xcode project
+1. Download the APImageTransactionEffect repository as a zip file or clone it
+2. Copy the APImageTransactionEffect files into your Xcode project
 
 ##### 2) via Cocoa pods
 
-BCMagicTransition is available on [CocoaPods](http://cocoapods.org). Just add the following to your project Podfile:
+APImageTransactionEffect is available on [CocoaPods](http://cocoapods.org). Just add the following to your project Podfile:
 
 ```ruby
 pod 'BCMagicTransition'
@@ -56,7 +51,7 @@ If you want to read more about CocoaPods, have a look at [this short tutorial](h
 
 Author: BoyceChang
 
-If you like BCMagicTransition and use it, could you please:
+If you like APImageTransactionEffect and use it, could you please:
 
  * star this repo 
  * send me some feedback. Thanks!
