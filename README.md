@@ -1,11 +1,9 @@
-![APImageTransactionEffect]
+APImageTransactionEffect
 =====================
 
 **A MagicMove Style Custom UIViewController Transiton**
 
 **Version 1.0.5**
-
-
 
 ##Adding APImageTransactionEffect to your project
 
