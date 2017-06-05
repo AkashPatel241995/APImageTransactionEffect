@@ -22,7 +22,7 @@ APImageTransactionEffect
 APImageTransactionEffect is available on [CocoaPods](http://cocoapods.org). Just add the following to your project Podfile:
 
 ```ruby
-pod 'BCMagicTransition'
+pod 'APMagicTransition'
 ```
 
 If you want to read more about CocoaPods, have a look at [this short tutorial](http://www.raywenderlich.com/12139/introduction-to-cocoapods).
@@ -32,7 +32,7 @@ If you want to read more about CocoaPods, have a look at [this short tutorial](h
 ```objective-c
 #import "UIViewController+BCMagicTransition.h"
 
-@interface MyViewController : <BCMagicTransitionProtocol>
+@interface MyViewController : <APMagicTransitionProtocol>
 
 
 - (void)push
